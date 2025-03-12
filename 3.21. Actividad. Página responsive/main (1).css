@@ -44,15 +44,16 @@ main {
 }
 
 .destacados {
-    margin: 20px 0px;
+    margin: 20px auto;  /* Centra horizontalmente */
     width: 100%;
     max-width: 1140px;
     column-gap: 32px; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-  
+    text-align: center; /* Asegura que el texto también esté centrado */
 }
+
 
 .destacado {
     color: #428bca;
@@ -68,7 +69,6 @@ main {
     gap: 32px;  
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
 }
 .tarjeta {
     text-decoration: none;

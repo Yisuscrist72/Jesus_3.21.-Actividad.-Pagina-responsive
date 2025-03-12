@@ -1,6 +1,7 @@
 @media (max-width: 1110px) {
     .destacados, .tarjetas {
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center; /* Mantiene centrado */
     }
 
     .tarjeta img {
@@ -59,6 +60,7 @@
 @media (max-width: 768px) {
     .destacados, .tarjetas {
         grid-template-columns: 1fr; /* Cambia a 1 columna */
+        justify-items: center; /* Centra los elementos */
     }
     .info {
         padding: 0 10px;
